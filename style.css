@@ -1,0 +1,49 @@
+/* Reset code */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+body{
+    background-color: #4abed2;
+    text-align: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    padding: 10px;
+}
+.heading{
+    font-size: 4rem;
+    color: #072920;
+    letter-spacing: 4px;
+    padding: 20px 0px;
+}
+/* Button design */
+.btn{
+    height: 180px;
+    width: 180px;
+    margin: 10px;
+    border: none;
+    background-image: url("/images/crash.png");
+    background-size: cover;
+    cursor: pointer;
+    font-size: 20px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: white;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0);
+    box-shadow: 0px 4px 3px rgb(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+.btn:hover{
+    color: #0306d2;
+}
+.btn:active{
+    background-size: 120%;
+    box-shadow: 0px 6px 3px black;
+}
